@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>JS - Form with Cancel Button</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <form action = "http://codepen.io/ColleenEMc/pen/0d5553e00754f2f5668dc58141b2f1da">
+
+      <label>Your Name:
+        <input type="text" id="name" name="name" placeholder = "Your Name" required>
+      </label><br>
+
+      <label>Preferred email address:
+        <input type="email" id="email_addr" name="email1" value = "me@me.com" required>
+      </label><br>
+
+      <label>Repeat email address:
+        <input type="email" id="email_repeat" name="email2" required>
+      </label><br>
+
+      <input type = 'submit' value = "Next" onclick = "return check();">
+      <input type = 'submit' value = "Save" onclick = "return false;">
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

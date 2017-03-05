@@ -1,0 +1,10 @@
+input {
+  position: absolute;
+  left: 200px;
+  width: 75px;
+}
+
+input[type=submit] {
+  top: 75px;
+  left: 10px;
+}
