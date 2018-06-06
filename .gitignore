@@ -19,3 +19,7 @@
 /public/system/*
 *.dump
 .DS_Store
+
+# Ignore sassfiles
+.sass-cache/
+*.css.map
